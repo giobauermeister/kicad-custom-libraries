@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# USB_conn
+#
+DEF USB_conn U 0 40 Y Y 1 F N
+F0 "U" 0 -300 60 H V C CNN
+F1 "USB_conn" 0 300 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+T 900 -100 0 71 0 0 0 USB Normal 1 C C
+S -175 250 175 -250 0 1 0 N
+X 5V 1 300 200 122 L 39 39 1 1 I
+X D- 2 300 75 122 L 39 39 1 1 I
+X D+ 3 300 -75 122 L 39 39 1 1 I
+X GND 4 300 -200 122 L 39 39 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
